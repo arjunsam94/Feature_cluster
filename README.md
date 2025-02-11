@@ -13,7 +13,7 @@ Used hierarchical clustering to identify product feature clusters which can then
 * Transforming categorical values of adoption rating under each feature (high, medium, low) to numerical values using ordinal encoding.
 * Creating a correlation table to identify features that have high correlation based on their encoded adoption rating.
 * Using the correlation table in the hierarchical clustering model to identify all possible feature clusters from the dataset.
-* Reducing the dimensions of the correlation table using PCA to represent the feature clusters in a two dimensional table in the form of a scatter plot.
+* Reducing the dimensions of the correlation table using PCA to represent the feature clusters in a two dimensional space in the form of a scatter plot.
 
 ## Result
 Features like analytics and custom fields are clustered together in the scatter plot since they can be mapped to a customer goal of 'tracking team performance'. From here, any customer who has a high adoption rating for custom fields, which is available in the lower plan, can be nudged to try the analytics module in the higher plan to achieve the goal of tracking team performance. GTM team engagement efforts can also be aligned to these insights. 
